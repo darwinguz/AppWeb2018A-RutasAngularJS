@@ -27,7 +27,7 @@ export const RUTAS_APP: Routes = [
     ]
   },
   {
-    path: 'logintemporal',
+    path: 'login',
     component: RutaLoginComponent,
   },
   {
