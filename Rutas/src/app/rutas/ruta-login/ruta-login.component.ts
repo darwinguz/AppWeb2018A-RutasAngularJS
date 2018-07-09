@@ -40,12 +40,11 @@ export class RutaLoginComponent implements OnInit {
     this._credencialesService
       .login(this.password);
     const rutaHomeUsuario = [
-      '/home',
-      'usuario',
-      1,
-      'epn'
+      '/home',//segmentos
+      'usuario',//segmentos
+      1,//segmentos
+      'epn'//segmentos
     ];
     this._router.navigate(rutaHomeUsuario);
-
   }
 }
